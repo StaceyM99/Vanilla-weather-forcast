@@ -102,8 +102,20 @@ footer {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.weather-forecast {
-    margin-top: 20px;
-    
+#forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-    
+
+.weather-forecast-temperatures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.weather-app-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
